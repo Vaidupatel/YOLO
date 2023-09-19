@@ -16,7 +16,7 @@ while True:
         break
 
     # Perform object detection on the frame
-    results = model.predict(source=frame  )
+    results = model.predict(source=frame)
 
     # Get the first result (assuming there's only one frame)
     result = results[0]

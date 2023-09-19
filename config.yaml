@@ -1,8 +1,8 @@
-path: 'C:\Users\HP\PycharmProjects\yolo_v8\Data' # dataset root dir
+path: 'C:\Users\admin\PycharmProjects\YOLO\Data' # dataset root dir
 train: images/train  # train images (relative to 'path')
 val: images/train  # val images (relative to 'path')
-
 # Classes
 names:
   0: crop
   1: weeds
+
