@@ -6,5 +6,6 @@ from ultralytics import YOLO
 # load a pretrained model (If we are training our existing model than use this)
 model = YOLO(r'yolov8n.pt')
 
+save_dir = r"C:\Users\admin\PycharmProjects\YOLO"
 # Use the mode(Give the path of config.yaml file in which we have classified the classes)
-model.train(data=r"C:\Users\HP\PycharmProjects\YOLO\config.yaml", epochs=1)  # train the model
+model.train(data=r"C:\Users\admin\PycharmProjects\YOLO\config.yaml", epochs=5, project=save_dir)  # train the model

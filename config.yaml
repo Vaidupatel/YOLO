@@ -1,4 +1,4 @@
-path: 'C:\Users\HP\PycharmProjects\YOLO\Data' # dataset root dir
+path: 'C:\Users\admin\PycharmProjects\YOLO\Data' # dataset root dir
 
 train: images  # train images (relative to 'path')
 
