@@ -8,4 +8,4 @@ model = YOLO(r"C:\Users\Admin\PycharmProjects\YOLO\train\weights\best.pt") # If 
 
 save_dir = r"C:\Users\Admin\PycharmProjects\YOLO"
 # Use the mode(Give the path of config.yaml file in which we have classified the classes)
-model.train(data=r"C:\Users\admin\PycharmProjects\YOLO\config.yaml", epochs=1, project=save_dir)  # train the model
+model.train(data=r"C:\Users\admin\PycharmProjects\YOLO\config.yaml", epochs=10, project=save_dir)  # train the model
