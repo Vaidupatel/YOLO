@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 # Folder containing JSON files
-json_folder = Path(r'D:\Project\Cleavers\Json Backup')
+json_folder = Path(r'C:\Users\HP\Downloads\backup\yolo_v8-main\Data\labels\train')
 
 # Loop through JSON files
 for json_file in json_folder.glob('*.json'):
